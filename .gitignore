@@ -5,6 +5,8 @@
 # __pycache__
 dags/__pycache__
 plugins/__pycache__
+plugins/helpers/__pycache__
+plugins/operators/__pycache__
 
 # logs
 logs/dag_processor_manager/
