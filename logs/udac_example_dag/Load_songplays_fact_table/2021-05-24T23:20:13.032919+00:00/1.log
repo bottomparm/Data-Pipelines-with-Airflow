@@ -1,0 +1,13 @@
+[2021-05-24 16:23:01,701] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: udac_example_dag.Load_songplays_fact_table 2021-05-24T23:20:13.032919+00:00 [queued]>
+[2021-05-24 16:23:01,708] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: udac_example_dag.Load_songplays_fact_table 2021-05-24T23:20:13.032919+00:00 [queued]>
+[2021-05-24 16:23:01,708] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-24 16:23:01,708] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2021-05-24 16:23:01,708] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-24 16:23:01,716] {taskinstance.py:900} INFO - Executing <Task(LoadFactOperator): Load_songplays_fact_table> on 2021-05-24T23:20:13.032919+00:00
+[2021-05-24 16:23:01,718] {standard_task_runner.py:53} INFO - Started process 98232 to run task
+[2021-05-24 16:23:01,770] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: udac_example_dag.Load_songplays_fact_table 2021-05-24T23:20:13.032919+00:00 [running]> Dylan.local
+[2021-05-24 16:23:01,782] {load_fact.py:22} INFO - LoadFactOperator not implemented yet
+[2021-05-24 16:23:01,787] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=udac_example_dag, task_id=Load_songplays_fact_table, execution_date=20210524T232013, start_date=20210524T232301, end_date=20210524T232301
+[2021-05-24 16:23:11,702] {logging_mixin.py:112} INFO - [2021-05-24 16:23:11,702] {local_task_job.py:103} INFO - Task exited with return code 0
