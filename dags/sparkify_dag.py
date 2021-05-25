@@ -20,7 +20,7 @@ default_args = {
     'catchup' : False,
 }
 
-dag = DAG('udac_example_dag',
+dag = DAG('sparkify_dag',
     default_args=default_args,
     description='Load and transform data in Redshift with Airflow',
     schedule_interval='0 * * * *'
@@ -43,7 +43,6 @@ stage_events_to_redshift = StageToRedshiftOperator(
     table='staging_events',
     s3_bucket='udacity-dend',
     s3_key='log_data/2018/11/'
-    
 )
 
 stage_songs_to_redshift = StageToRedshiftOperator(

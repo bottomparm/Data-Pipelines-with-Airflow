@@ -11,7 +11,7 @@ plugins/operators/__pycache__
 # logs
 logs/dag_processor_manager/
 logs/scheduler/
-logs/udac_example_dag/
+logs/sparkify_dag/
 
 # executables
 airflow.db
