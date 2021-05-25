@@ -463,3 +463,16 @@
 [2021-05-25 09:05:25,070] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: udac_example_dag.Run_data_quality_checks 2019-01-13 03:00:00+00:00 [scheduled]> in ORM
 [2021-05-25 09:05:25,073] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: udac_example_dag.Stop_execution 2019-01-13 03:00:00+00:00 [success]> in ORM
 [2021-05-25 09:05:25,080] {scheduler_job.py:162} INFO - Processing /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py took 0.140 seconds
+[2021-05-25 09:24:13,493] {scheduler_job.py:154} INFO - Started process (PID=6752) to work on /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py
+[2021-05-25 09:24:13,501] {scheduler_job.py:1562} INFO - Processing file /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py for tasks to queue
+[2021-05-25 09:24:13,502] {logging_mixin.py:112} INFO - [2021-05-25 09:24:13,502] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py
+[2021-05-25 09:24:13,516] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['udac_example_dag']) retrieved from /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py
+[2021-05-25 09:24:13,541] {scheduler_job.py:1284} INFO - Processing udac_example_dag
+[2021-05-25 09:24:13,574] {scheduler_job.py:1294} INFO - Created <DagRun udac_example_dag @ 2019-01-13T04:00:00+00:00: scheduled__2019-01-13T04:00:00+00:00, externally triggered: False>
+[2021-05-25 09:24:13,578] {scheduler_job.py:759} INFO - Examining DAG run <DagRun udac_example_dag @ 2019-01-13 03:00:00+00:00: scheduled__2019-01-13T03:00:00+00:00, externally triggered: False>
+[2021-05-25 09:24:13,589] {scheduler_job.py:759} INFO - Examining DAG run <DagRun udac_example_dag @ 2019-01-13 04:00:00+00:00: scheduled__2019-01-13T04:00:00+00:00, externally triggered: False>
+[2021-05-25 09:24:13,626] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: udac_example_dag> because no tasks in DAG have SLAs
+[2021-05-25 09:24:13,629] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: udac_example_dag.Create_tables 2019-01-13 03:00:00+00:00 [scheduled]> in ORM
+[2021-05-25 09:24:13,632] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: udac_example_dag.Create_tables 2019-01-13 04:00:00+00:00 [scheduled]> in ORM
+[2021-05-25 09:24:13,635] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: udac_example_dag.Begin_execution 2019-01-13 04:00:00+00:00 [success]> in ORM
+[2021-05-25 09:24:13,643] {scheduler_job.py:162} INFO - Processing /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py took 0.150 seconds

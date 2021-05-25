@@ -5113,3 +5113,150 @@ File Path                                                                       
 /Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-05-25T16:07:15
 /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py                                                                             1           0  0.21s           2021-05-25T16:05:25
 ================================================================================
+[2021-05-25 09:23:37,418] {dag_processing.py:821} INFO - Processing files using up to 1 processes at a time 
+[2021-05-25 09:23:37,419] {dag_processing.py:822} INFO - Process each file at most once every 0 seconds
+[2021-05-25 09:23:37,420] {dag_processing.py:824} INFO - Checking for new files in /Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags every 300 seconds
+[2021-05-25 09:23:37,422] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:23:37,423] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:18:37.423058+00:00
+[2021-05-25 09:23:37,551] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py                                                                             0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-05-25T16:23:37
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2021-05-25 09:23:49,418] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:23:49,421] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:18:49.421380+00:00
+[2021-05-25 09:23:59,448] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:23:59,450] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:18:59.450240+00:00
+[2021-05-25 09:24:07,578] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py                                                                             0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.14s           2021-05-25T16:23:49
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-05-25T16:23:41
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-05-25T16:23:45
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-05-25T16:23:51
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-05-25T16:23:47
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-05-25T16:23:55
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-05-25T16:23:59
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-05-25T16:24:01
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-05-25T16:23:53
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-05-25T16:23:37
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-05-25T16:24:03
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-05-25T16:23:43
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-05-25T16:23:57
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-05-25T16:24:05
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-05-25T16:24:07
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-05-25T16:23:39
+================================================================================
+[2021-05-25 09:24:09,466] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:24:09,467] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:19:09.467949+00:00
+[2021-05-25 09:24:43,188] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:24:43,192] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:19:43.192455+00:00
+[2021-05-25 09:24:43,313] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-05-25T16:24:09
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.14s           2021-05-25T16:23:49
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-05-25T16:23:41
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-05-25T16:24:11
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-05-25T16:23:45
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-05-25T16:23:51
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-05-25T16:23:47
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-05-25T16:24:15
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-05-25T16:23:55
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-05-25T16:23:59
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-05-25T16:24:01
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-05-25T16:23:53
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-05-25T16:24:43
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-05-25T16:23:37
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-05-25T16:24:03
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-05-25T16:23:43
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-05-25T16:23:57
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-05-25T16:24:05
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-05-25T16:24:07
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-05-25T16:23:39
+/Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py                                                                             1           0  0.21s           2021-05-25T16:24:13
+================================================================================
+[2021-05-25 09:24:53,206] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:24:53,208] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:19:53.208590+00:00
+[2021-05-25 09:25:03,230] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:25:03,232] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:20:03.232040+00:00
+[2021-05-25 09:25:13,252] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-25 09:25:13,256] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2021-05-25 16:20:13.256615+00:00
+[2021-05-25 09:25:13,376] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2021-05-25T16:24:51
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-05-25T16:24:09
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-05-25T16:25:05
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-05-25T16:24:57
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-05-25T16:24:11
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-05-25T16:25:01
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2021-05-25T16:25:07
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2021-05-25T16:24:47
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2021-05-25T16:25:03
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-05-25T16:24:15
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-05-25T16:25:11
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-05-25T16:23:59
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-05-25T16:24:01
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-05-25T16:25:09
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-05-25T16:24:43
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-05-25T16:24:53
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-05-25T16:24:03
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-05-25T16:24:49
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-05-25T16:24:59
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-05-25T16:25:13
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-05-25T16:24:05
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-05-25T16:24:07
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2021-05-25T16:24:45
+/Users/dhrebenach/opt/anaconda3/envs/data_pipelines_proj/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-05-25T16:24:55
+/Users/dhrebenach/Documents/python/UdacityDataEng/Projects/Data_Pipelines/dags/udac_example_dag.py                                                                             1           0  0.21s           2021-05-25T16:24:13
+================================================================================
