@@ -1,12 +1,16 @@
 # Environment
 .env
-.vscode
+.vscode/
 
 # __pycache__
 dags/__pycache__
 plugins/__pycache__
 
 # logs
-logs/dag_processor_manager
-logs/scheduler
-logs/udac_example_dag
+logs/dag_processor_manager/
+logs/scheduler/
+logs/udac_example_dag/
+
+# executables
+airflow.db
+airflow-webserver.pid
