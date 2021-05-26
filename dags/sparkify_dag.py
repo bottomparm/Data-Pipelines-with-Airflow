@@ -6,10 +6,6 @@ from airflow.operators.postgres_operator import PostgresOperator
 from airflow.operators import (StageToRedshiftOperator, LoadFactOperator, LoadDimensionOperator, DataQualityOperator)
 from helpers import SqlQueries
 
-
-AWS_KEY = os.environ.get('AWS_KEY')
-AWS_SECRET = os.environ.get('AWS_SECRET')
-
 default_args = {
     'owner': 'dhrebenach',
     'start_date': datetime(2019, 1, 12),
