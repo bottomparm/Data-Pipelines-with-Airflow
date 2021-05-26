@@ -7,7 +7,8 @@ class LoadFactOperator(BaseOperator):
     TRUNCATE TABLE {};
     """
     insert_sql = """
-    INSERT INTO {} {};
+    INSERT INTO {} {}
+    WHERE songplay_id IS NOT NULL;
     """
     ui_color = '#F98866'
 

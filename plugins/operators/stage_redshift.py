@@ -12,7 +12,6 @@ class StageToRedshiftOperator(BaseOperator):
         FORMAT AS JSON '{}';
     """
     ui_color = '#358140'
-    templated_fields = ("s3_key", )
 
     @apply_defaults
     def __init__(self,

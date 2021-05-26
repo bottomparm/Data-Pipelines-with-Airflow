@@ -23,6 +23,7 @@ class SqlQueries:
         SELECT distinct userid, firstname, lastname, gender, level
         FROM staging_events
         WHERE page='NextSong'
+        AND userid IS NOT NULL
     """)
 
     song_table_insert = ("""
@@ -40,3 +41,5 @@ class SqlQueries:
                extract(month from start_time), extract(year from start_time), extract(dayofweek from start_time)
         FROM songplays
     """)
+
+    
