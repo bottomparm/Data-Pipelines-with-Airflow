@@ -1,17 +1,9 @@
 from datetime import datetime, timedelta
 import os
-# import sys
-# sys.path.append('..')
-
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.postgres_operator import PostgresOperator
 from airflow.operators import (StageToRedshiftOperator, LoadFactOperator, LoadDimensionOperator, DataQualityOperator)
-# from plugins.operators.stage_redshift import StageToRedshiftOperator
-# from plugins.operators.load_fact import LoadFactOperator
-# from plugins.operators.load_dimension import LoadDimensionOperator
-# from plugins.operators.data_quality import DataQualityOperator
-# from plugins.helpers.sql_queries import SqlQueries
 from helpers import SqlQueries
 
 

@@ -11,13 +11,12 @@ class StageToRedshiftOperator(BaseOperator):
         SECRET_ACCESS_KEY '{}'
         FORMAT AS JSON '{}';
     """
+    
     ui_color = '#358140'
 
     @apply_defaults
     def __init__(self,
-                # Define your operators params (with defaults) here
-                # Example:
-                # redshift_conn_id=your-connection-name
+                # Operators params (with defaults)
                 redshift_conn_id="",
                 table = "",
                 aws_credentials_id="",
@@ -27,9 +26,7 @@ class StageToRedshiftOperator(BaseOperator):
                 *args, **kwargs):
 
         super(StageToRedshiftOperator, self).__init__(*args, **kwargs)
-        # Map params here
-        # Example:
-        # self.conn_id = conn_id
+        # Map params
         self.redshift_conn_id = redshift_conn_id
         self.table = table
         self.aws_credentials_id = aws_credentials_id
@@ -38,7 +35,6 @@ class StageToRedshiftOperator(BaseOperator):
         self.json_path = json_path
 
     def execute(self, context):
-        # self.log.info('StageToRedshiftOperator not implemented yet')
         aws_hook = AwsHook(self.aws_credentials_id)
         credentials = aws_hook.get_credentials()
         redshift_hook = PostgresHook(postgres_conn_id=self.redshift_conn_id)

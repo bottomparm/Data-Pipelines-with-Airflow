@@ -10,13 +10,12 @@ class LoadFactOperator(BaseOperator):
     INSERT INTO {} {}
     WHERE songplay_id IS NOT NULL;
     """
+    
     ui_color = '#F98866'
 
     @apply_defaults
     def __init__(self,
-        # Define your operators params (with defaults) here
-        # Example:
-        # conn_id = your-connection-name
+        # Operators params (with defaults)
         redshift_conn_id = "redshift",
         table = "",
         truncate_data = False,
@@ -24,22 +23,20 @@ class LoadFactOperator(BaseOperator):
         *args, **kwargs):
 
         super(LoadFactOperator, self).__init__(*args, **kwargs)
-        # Map params here
-        # Example:
-        # self.conn_id = conn_id
+        # Map params
         self.redshift_conn_id = redshift_conn_id
         self.table = table
         self.truncate_data = truncate_data
         self.sql_query = sql_query
         
-    def execute(self, context):
+    def execute(self):
         self.log.info(f"Started execution of LoadFactOperator on {self.table}. \
                       Delete existing data: {self.truncate_data}.")
         redshift_hook = PostgresHook(postgres_conn_id=self.redshift_conn_id)
      
         if self.truncate_data:
             redshift_hook.run(LoadFactOperator.truncate_sql.format(self.table))
-        
+
         redshift_hook.run(LoadFactOperator.insert_sql.format(self.table, self.sql_query))
         
         self.log.info(f"Completed implemenation of LoadFactOperator on {self.table}")
